@@ -13,10 +13,11 @@
 
 ### to initialize Tkinter we have to create the root widget,only one root widget should be created for each program, and it must be created before any other widget.
 
-   '''python root =Tk()
-
+   ```python
+   python root =Tk()
    w = Label(root,text='Hello world!)
-   w.pack() '''
+   w.pack()
+   ```
 
  ### A Label widget can display either text or an icon or other image. In this case, we use the text option to specify which text to display. Next, we call the pack method on this widget, which tells it to size itself to fit the given text, and make itself visible. But before this happens, we have to enter the Tkinter event loop:
  
