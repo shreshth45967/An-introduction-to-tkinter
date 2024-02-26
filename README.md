@@ -28,7 +28,7 @@
 
 
     
-from tkinter import Tk, Frame, Button
+'''from tkinter import Tk, Frame, Button
 
 class App:
     def __init__(self, master):
@@ -42,7 +42,7 @@ class App:
 
 root = Tk()
 app = App(root)
-root.mainloop()
+root.mainloop()'''
 
    
    
