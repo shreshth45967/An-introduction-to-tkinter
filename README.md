@@ -27,7 +27,7 @@
 ### basic demonstration of tkinter program:
 
 
-'''python    
+```python    
 from tkinter import Tk, Frame, Button
 
 class App:
@@ -42,7 +42,7 @@ class App:
 
 root = Tk()
 app = App(root)
-root.mainloop()'''
+root.mainloop()```
 
 
    
