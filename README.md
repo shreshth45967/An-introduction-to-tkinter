@@ -25,7 +25,9 @@
 ### The program will stay in the event loop until we close the window. The event loop doesn't only handle events from the user (such as mouse clicks and key presses) or the windowing system (such as redraw events and window configuration messages), it also handle operations queued by Tkinter itself. Among these operations are geometry management (queued by the pack method) and display updates. This also means that the application window will not appear before you enter the main loop.
 
 ### basic demonstration of tkinter program:
-'''python class App:
+'''python 
+class App:
+    
 
     def __init__(self,master):
         frame=Frame(master)
