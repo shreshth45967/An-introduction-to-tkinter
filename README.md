@@ -28,19 +28,22 @@
 
 
     
-'''python
+from tkinter import Tk, Frame, Button
+
 class App:
-    def __init__(self,master):
-        frame=Frame(master)
+    def __init__(self, master):
+        frame = Frame(master)
         frame.pack()
-        self.button=Button(frame,text='QUIT',fg="green",command=frame.quit)
-        self.button.pack(side=LEFT)
+        self.button = Button(frame, text='QUIT', fg="green", command=frame.quit)
+        self.button.pack(side='left')
+
     def say_hi(self):
         print("hi there!")
-        
-   root=Tk() 
-   app= App(root)
-   root.mainloop()'''
+
+root = Tk()
+app = App(root)
+root.mainloop()
+
    
    
    
