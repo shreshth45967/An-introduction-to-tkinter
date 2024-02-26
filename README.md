@@ -28,19 +28,19 @@
 
 
     
+'''python
 class App:
-
     def __init__(self,master):
         frame=Frame(master)
         frame.pack()
         self.button=Button(frame,text='QUIT',fg="green",command=frame.quit)
         self.button.pack(side=LEFT)
     def say_hi(self):
-        print("hi there,bitches!")
+        print("hi there!")
         
    root=Tk() 
    app= App(root)
-   root.mainloop()
+   root.mainloop() '''
    
 
       
