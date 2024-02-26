@@ -13,16 +13,41 @@
 
 ### to initialize Tkinter we have to create the root widget,only one root widget should be created for each program, and it must be created before any other widget.
 
-  ### root =Tk()
+   '''python root =Tk()
 
-  ### w = Label(root,text='Hello world!)
-  ### w.pack()
+   w = Label(root,text='Hello world!)
+   w.pack() '''
 
  ### A Label widget can display either text or an icon or other image. In this case, we use the text option to specify which text to display. Next, we call the pack method on this widget, which tells it to size itself to fit the given text, and make itself visible. But before this happens, we have to enter the Tkinter event loop:
  
-### root.mainloop()
+'''python root.mainloop()'''
 
 ### The program will stay in the event loop until we close the window. The event loop doesn't only handle events from the user (such as mouse clicks and key presses) or the windowing system (such as redraw events and window configuration messages), it also handle operations queued by Tkinter itself. Among these operations are geometry management (queued by the pack method) and display updates. This also means that the application window will not appear before you enter the main loop.
+
+### basic demonstration of tkinter program:
+'''python class App:
+
+    def __init__(self,master):
+        frame=Frame(master)
+        frame.pack()
+        self.button=Button(frame,text='QUIT',fg="green",command=frame.quit)
+        self.button.pack(side=LEFT)
+    def say_hi(self):
+        print("hi there,bitches!")
+        
+   root=Tk() 
+   app= App(root)
+   root.mainloop()'''
+   
+
+      
+      
+
+      
+        
+
+
+
 
 
   
