@@ -28,7 +28,7 @@
 
 
     
-'''python
+
 class App:
     def __init__(self,master):
         frame=Frame(master)
@@ -40,7 +40,7 @@ class App:
         
    root=Tk() 
    app= App(root)
-   root.mainloop()'''
+   root.mainloop()
    
 
       
