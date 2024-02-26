@@ -49,6 +49,52 @@ root.mainloop()
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Widget | Description |
+|---|---|
+| Button | A simple button, used to execute a command or other operation. |
+| Canvas | Structured graphics. This widget can be used to draw graphs and plots, create graphics editors, and to implement custom widgets. |
+| Checkbutton | Represents a variable that can have two distinct values. Clicking the button toggles between the values. |
+| Entry | A text entry field. |
+| Frame | A container widget. The frame can have a border and a background, and is used to group other widgets when creating an application or dialog layout. |
+| Label | Displays a text or an image. |
+| Listbox | Displays a list of alternatives. The listbox can be configured to get radiobutton or checklist behavior. |
+| Menu | A menu pane. Used to implement pulldown and popup menus. |
+| Menubutton | A menubutton. Used to implement pulldown menus. |
+| Message | Display a text. Similar to the label widget, but can automatically wrap text to a given width or aspect ratio. |
+| Radiobutton | Represents one value of a variable that can have one of many values. Clicking the button sets the variable to that value, and clears all other radiobuttons associated with the same variable. |
+| Scale | Allows you to set a numerical value by dragging a "slider". |
+| Scrollbar | Standard scrollbars for use with canvas, entry, listbox, and text widgets. |
+| Text | Formatted text display. Allows you to display and edit text with various styles and attributes. Also supports embedded images and windows. |
    
    
    
