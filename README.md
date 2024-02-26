@@ -3,7 +3,7 @@
 ### The Tkinter module is the standard Python interface to Tk GUI toolkit from Scripts,both of Tk and Tkinter are available on most Unix platforms,as well as Windows and Macintosh systems. Starting with the 8.0 release,Tk offers native look and feel on all platforms.
 
 ### Tk interface module is located in a binary module named _tkinter present in  earlier versions.
-### Two most important python gui modules are:- 
+### Two most important python GUI modules are:- 
 ### 1. Tkinter module 
 ### 2. Tkconstants
 ### to get started you need to import the modules using
