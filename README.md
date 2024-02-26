@@ -29,6 +29,7 @@
 
     
 class App:
+
     def __init__(self,master):
         frame=Frame(master)
         frame.pack()
