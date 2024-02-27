@@ -48,7 +48,7 @@ app = App(root)
 root.mainloop()
 ```
 
-#### Class Creation:<br> We start by defining a class called App.The constructor (__init__ method) takes a parent widget (the master) as an argument.<br> Inside the constructor, we create a Frame widget to serve as a container for other widgets.<br> Adding Buttons:<br> Within the frame, we create two Button widgets.<br> The first button is labeled “QUIT” and appears in red.<br>The second button is labeled “Hello”.<br> Functionality:<br> The “QUIT” button is associated with the frame.quit function, which quits the application.<br> The “Hello” button triggers a custom method called say_hi.
+#### _Class Creation:_ <br> We start by defining a class called App.The constructor (__init__ method) takes a parent widget (the master) as an argument.<br> Inside the constructor, we create a Frame widget to serve as a container for other widgets.<br> Adding Buttons:<br> Within the frame, we create two Button widgets.<br> The first button is labeled “QUIT” and appears in red.<br>The second button is labeled “Hello”.<br> _Functionality:_ <br> The “QUIT” button is associated with the frame.quit function, which quits the application.<br> The “Hello” button triggers a custom method called say_hi.
 
 
 
