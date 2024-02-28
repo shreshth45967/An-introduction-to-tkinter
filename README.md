@@ -74,7 +74,7 @@ The Grid, Pack, and Place classes are used as mixins by the widget classes. They
 | Pack    | The pack geometry manager lets you create layouts by “packing” widgets into a parent widget, treating them as rectangular blocks placed in a frame. To use this manager, call the `pack` method on the widget. |
 | Place   | The place geometry manager enables explicit placement of widgets at specific positions. Use the `place` method to achieve this fine-grained control.
 
-#### Additional Content
+#### Additional Details
 
 Here's how these managers can be practically applied:
 
