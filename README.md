@@ -45,14 +45,14 @@ root.mainloop()
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 When working with Tkinter, you can name widgets using the following approach:<br><br>
-**_Automatic Naming:_**<br><br>
+**_Automatic Naming:_**<br>
 
 In Tkinter, each widget is an object (an instance of a class) representing buttons, frames, and other GUI elements.
 When you create a widget, you need to pass its parent as a parameter to the widget creation function.
 Tkinter automatically assigns a unique name to each new widget.
-For example, if you create a button within a frame, Tkinter assigns names like “.:1428748” for the frame and “.:1428748.1432920” for the button.
+For example, if you create a button within a frame, Tkinter assigns names like “.:1428748” for the frame and “.:1428748.1432920” for the button.<br>
 
-**_Accessing Widget Names:_**<br><br>
+**_Accessing Widget Names:_**<br>
 To access a widget’s name within an event or function, use event.widget["text"].
 For example, if you want to get the name of a widget during an event, use event.widget["text"] inside a function.
 You can then print the widget’s name using print(event.widget["text"]).
