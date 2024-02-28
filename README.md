@@ -44,6 +44,22 @@ root.mainloop()
  _Class Creation:_ <br> We start by defining a class called App.The constructor (__init__ method) takes a parent widget (the master) as an argument.<br> Inside the constructor, we create a Frame widget to serve as a container for other widgets.<br><br> _Adding Buttons:_ <br> Within the frame, we create two Button widgets.<br> The first button is labeled “QUIT” and appears in red.<br>The second button is labeled “Hello”.<br><br> _Functionality:_ <br> The “QUIT” button is associated with the frame.quit function, which quits the application.<br> The “Hello” button triggers a custom method called say_hi.
 
 
+When working with Tkinter, you can name widgets using the following approach:
+Automatic Naming:
+
+In Tkinter, each widget is an object (an instance of a class) representing buttons, frames, and other GUI elements.
+When you create a widget, you need to pass its parent as a parameter to the widget creation function.
+Tkinter automatically assigns a unique name to each new widget.
+For example, if you create a button within a frame, Tkinter assigns names like “.:1428748” for the frame and “.:1428748.1432920” for the button.
+
+Accessing Widget Names:
+To access a widget’s name within an event or function, use event.widget["text"].
+For example, if you want to get the name of a widget during an event, use event.widget["text"] inside a function.
+You can then print the widget’s name using print(event.widget["text"]).
+
+Remember, widget names in Tkinter are automatically managed, making it easier to work with GUI elements
+
+
 
 
 
